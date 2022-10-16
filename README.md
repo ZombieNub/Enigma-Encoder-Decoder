@@ -49,3 +49,11 @@ The rotors are also dictionaries that map integers to integers.
 
 ## Reflector
 Reflector is implemented the same way we implement the plugboard, but with a baked-in dictionary rather than a user-defined dictionary.
+
+# Enigma Complete!
+The Enigma machine is complete! We can now encode and decode messages using the Enigma machine.
+Right now, it has three rotors, and a reflector. The rotors can be rotated and swapped out, and the plugboard can be user-defined.
+Now comes the hard part: Cracking the code.
+How did the Allies crack the code? How did they manage to decode the messages?
+
+Well...https://en.wikipedia.org/wiki/Cryptanalysis_of_the_Enigma
