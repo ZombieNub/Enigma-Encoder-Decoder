@@ -4,12 +4,12 @@ mod char_util;
 mod enigma;
 
 fn main() {
-    let test_string = "Shid";
+    let test_string = "pszlhehklwsdj";
     let test_string = char_util::string_to_i32(char_util::filter_string(test_string).as_str());
     let mut rotors = vec![
         enigma::enigma_samples::sample_rot_i(),
-        enigma::enigma_samples::sample_rot_i(),
-        enigma::enigma_samples::sample_rot_i(),
+        enigma::enigma_samples::sample_rot_ii(),
+        enigma::enigma_samples::sample_rot_iii(),
     ];
     let reflector = enigma::enigma_samples::sample_reflector_b();
     let mut enigma_1 = enigma::Cypher::from_rotors_and_reflector(
